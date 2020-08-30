@@ -40,3 +40,14 @@ function addElement(event) {
     console.log(active.scrollTop);
     listAdd.appendChild(task);
 }
+
+function trash(e){
+    const item = e.target;
+    const parent = item.parentElement;
+    if (item.classList[0] === 'btn-trash'){
+        parent.remove();
+    }
+    if (item.classList[1] === 'fa-trash'){
+        parent.parentElement.remove()
+    }
+}
