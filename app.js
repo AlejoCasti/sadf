@@ -40,25 +40,3 @@ function addElement(event) {
     console.log(active.scrollTop);
     listAdd.appendChild(task);
 }
-
-
-
-
-    // formu.onsubmit = function(){
-//     
-//     var desTask = document.createElement("p");
-//     var check = document.createElement("input");
-//     var btn = document.createElement("input");
-//     var lista = document.getElementById("active-list");
-
-//     check.setAttribute("type", "checkbox");
-//     btn.setAttribute("type", "button");
-
-//     desTask.innerHTML += check.outerHTML + btn.outerHTML;
-//     task.appendChild(desTask);
-
-//     lista.appendChild(task);
-//     // <p class="todo-value">Esta es mi tarea</p>
-//     // <input type="checkbox" class="not-checked todo-check">
-//     // <input type="button" value="Trash" class="todo-bt"></input>
-// }
